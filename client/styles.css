@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#clock {
+  background-color: black;
+  margin-top: 10%;
+  height: 7rem;
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px #000000;
+  color: red;
+}
+
+.colon {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.number {
+  margin: 1%;
+}
+
+.tile-t {
+  width: 2rem;
+  height: 2rem;
+  border-style: solid;
+  border-color: red;
+  border-width: 0.25rem;
+}
+
+.tile-b {
+  width: 2rem;
+  height: 2rem;
+  border-style: solid;
+  border-color: red;
+  border-width: 0.25rem;
+}
+
+.left-off {
+  border-left-color: rgb(0,0,0,0);
+}
+
+.right-off {
+  border-right-color: rgb(0,0,0,0);
+}
+
+.top-off {
+  border-top-color: rgb(0,0,0,0);
+}
+
+.bot-off {
+  border-bottom-color: rgb(0,0,0,0);
+}
+
+.hide {
+  visibility: hidden
+}
